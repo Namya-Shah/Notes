@@ -1,0 +1,1 @@
+- Making locally optimal choices at each stage, such as solving Knapsack problem.

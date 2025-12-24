@@ -1,0 +1,1 @@
+It means that they can turn something like a video, text, image into a mathematical format.

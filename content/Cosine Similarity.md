@@ -1,0 +1,1 @@
+Cosine similarity means that you can determine how similar items are to one another even though they don't match.

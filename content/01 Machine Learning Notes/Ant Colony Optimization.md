@@ -1,0 +1,7 @@
+- In computer science and operations research, the **ant colony optimization algorithm (ACO)** is a probabilistic technique for solving computational problems that can be reduced to finding good paths through graphs.
+- The **pheromone-based** communication** of **biological ants** is often the predominant paradigm used.
+- Combinations of artificial ants and local search algorithms have become a preferred method for numerous optimization tasks involving some sort of graph, e.g., vehicle routing and internet routing.
+![[image 3.png]]
+- Artificial ‘ants’ (e.g., simulation agents) locate optimal solutions by moving through a parameter space representing all possible solutions.
+- Real ants lay down pheromones to direct each other to resources while exploring their environment. The simulated ‘ants’ similarly record their positions and the quality of their solutions, so that in later simulation iterations more ants locate better solutions.
+- Over time, however, the pheromone trail starts to evaporate, thus reducing its attractive strength. The more time it takes for an ant to travel down the path and back again, the more time the pheromones have to evaporate. A short path, by comparison, is marched over more frequently, and thus the pheromone density becomes higher on shorter paths than longer ones. Pheromone evaporation also has the advantage of avoiding the convergence to a locally optimally solution. If there were no evaporation at all, the paths chosen by the first ants would tend to be excessively attractive to the following ones.

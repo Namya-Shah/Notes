@@ -1,0 +1,52 @@
+---
+Speaker: Julian Treasure
+Created On: 2023-06-20
+---
+# Video
+<iframe title="How to speak so that people want to listen | Julian Treasure | TED" src="https://www.youtube.com/embed/eIho2S0ZahI?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
+# Notes
+- Human voice is the most powerful instrument as it can start a war or say love you
+- Habits that need to change
+    - Gossip
+        - Speaking ill of someone who isn't present
+        - We know someone gossiping about someone right now will be gossiping about us later on
+    - Judging
+        - It's hard to listen to somebody that you know will judge you on whatever you say
+    - Negativity
+        - You can fall in this pit hole easily and you start to think negative about small things that may not even occur to you
+    - Complaining
+        - It's a viral misery. It's not spreading sunshine and happiness in the world
+    - Excuses
+        - Someone who just keeps on giving excuses for whatever happens
+    - Lying
+        - Demeans a language
+    - Dogmatism
+        - Confusion of facts with opinions
+- HAIL
+    - To greet or acclaim enthusiastically
+    - H → Honesty → be clear and straight
+    - A → Authenticity → be yourself
+    - I → Integrity → be your word
+    - L → Love → wish them well
+- Toolbox
+    - Register
+        - Location of voice
+        - If you want weight, you need to speak from chest
+        - We speak with power and authority
+    - Timbre
+        - We prefer voices that are warm, rich, smooth
+        - You can train
+    - Prosody
+        - Metal language
+        - If you speak in one tone, then it is hard to listen to
+        - One tone ⇒ Monotone
+        - There is also a prosody that sounds like question but actually its a statement
+        - If you repeat it over and over than its restricting your prosody
+    - Pace
+        - You can get very excited and speak very fast
+        - Also there is nothing wrong with silence
+    - Pitch
+        - Different meanings with different pitch
+    - Volume
+        - You can say something very loud or very low
+        - Warm up your voice

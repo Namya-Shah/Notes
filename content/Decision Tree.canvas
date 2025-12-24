@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"e9cb0ca28f339378","type":"text","text":"Decision Trees","x":-140,"y":-40,"width":250,"height":60,"color":"1"},
+		{"id":"ccefe7145daa1b93","type":"text","text":"Regressor","x":110,"y":60,"width":250,"height":60,"color":"5"},
+		{"id":"8ed18cd4fa998f3d","type":"text","text":"Classifier","x":110,"y":-140,"width":250,"height":60,"color":"4"},
+		{"id":"c266329c25519911","type":"text","text":"Algorithms","x":-440,"y":-40,"width":250,"height":60,"color":"2"},
+		{"id":"7b35e68405619fab","type":"text","text":"CART","x":-690,"y":80,"width":250,"height":60,"color":"1"},
+		{"id":"f8cb7d7080d7a0b9","type":"text","text":"ID3","x":-690,"y":-160,"width":250,"height":60,"color":"3"},
+		{"id":"a51ca4975742d2b9","type":"file","file":"01 Machine Learning Notes/ID3 vs CART algorithm.md","x":-1220,"y":-210,"width":400,"height":400,"color":"5"},
+		{"id":"6642ac769528bf25","x":440,"y":-140,"width":250,"height":60,"color":"4","type":"text","text":"Hyperparameters"},
+		{"id":"6d517eda3686d024","x":440,"y":60,"width":217,"height":60,"color":"5","type":"text","text":"Hyperparameters"}
+	],
+	"edges":[
+		{"id":"47fbc01fa1f8de18","fromNode":"e9cb0ca28f339378","fromSide":"left","toNode":"c266329c25519911","toSide":"right"},
+		{"id":"d8e09d0eb2b474d1","fromNode":"c266329c25519911","fromSide":"left","toNode":"7b35e68405619fab","toSide":"top","color":"2"},
+		{"id":"774a65b7360e6619","fromNode":"c266329c25519911","fromSide":"left","toNode":"f8cb7d7080d7a0b9","toSide":"bottom","color":"2"},
+		{"id":"671fd804839e4239","fromNode":"f8cb7d7080d7a0b9","fromSide":"left","toNode":"a51ca4975742d2b9","toSide":"right"},
+		{"id":"99e8ddc99c2fa611","fromNode":"7b35e68405619fab","fromSide":"left","toNode":"a51ca4975742d2b9","toSide":"right"},
+		{"id":"83f4b4dee6d995b2","fromNode":"e9cb0ca28f339378","fromSide":"top","toNode":"8ed18cd4fa998f3d","toSide":"left","color":"1"},
+		{"id":"80798cffaaa55a0e","fromNode":"e9cb0ca28f339378","fromSide":"bottom","toNode":"ccefe7145daa1b93","toSide":"left","color":"1"},
+		{"id":"5d376a0e92348c1e","fromNode":"ccefe7145daa1b93","fromSide":"right","toNode":"6d517eda3686d024","toSide":"left","color":"5"},
+		{"id":"ca199b5703f01545","fromNode":"8ed18cd4fa998f3d","fromSide":"right","toNode":"6642ac769528bf25","toSide":"left","color":"4"}
+	]
+}

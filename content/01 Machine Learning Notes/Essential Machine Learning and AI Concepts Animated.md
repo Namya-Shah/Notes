@@ -1,0 +1,119 @@
+---
+Location:
+  - YouTube
+Channel:
+  - FreeCodeCamp
+Date: 2025-12-22 22:03
+Topics:
+tags:
+  - YouTube
+  - "#ML-Concepts"
+  - "#ML"
+---
+# Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PcbuKRNtCUc?si=_j9oRfIWCglWjDMO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# Notes
+
+- **Variance** is a statistical measure of the dispersion of a set of values often used in machine learning to understand data distribution.
+- **Unsupervised Learning** is a type of machine learning where the algorithm learns from unlabelled data often used for clustering or anomaly detection.
+- **Time Series Analysis** is the study of ordered often temporal data used for forecasting and trend analysis.
+- **Transfer Learning** is the practice of applying knowledge gained from one task to a different but related task often used to improve model performance.
+- **Gradient Descent** is an optimization algorithm used to find the local minimum of a function by iteratively adjusting its parameters in the opposite direction of the gradient.
+- **Stochastic Gradient Descent (SGD)** is a variant of gradient descent that updates the model's parameters using only a single data point at each iteration.
+- **Sentiment Analysis** is the use of natural language processing to identify and categorize opinions expressed in text.
+- **Regression** is a statistical method used to model the relationship between a dependent variable and one or more independent variables.
+- **Regularization** is a technique used to prevent overfitting by adding a penalty term to the loss function.
+- **Logistic Regression** is a statistical method used for binary classification problems modeling the probability of a particular class.
+- **Linear Regression** is a statistical method used for modeling and analyzing linear relationships between a dependent variable and one or more independent variables.
+- **Reinforcement Learning** is a type of machine learning where an agent learns to make decisions by interacting with an environment to achieve a goal.
+- **Decision Trees** are a type of supervised learning algorithm used for both classification and regression tasks that make decisions based on splitting data along feature values.
+- **Random Forest** is an ensemble learning method that consists of multiple decision trees and outputs the average prediction of the individual trees for regression tasks or the class that receives the most votes for classification tasks.
+- **Truncation** is the process of limiting the number of elements in a dataset or the number of nodes in a neural network.
+- **Principal Component Analysis (PCA)** is a dimensionality reduction technique that transforms the original variables into a new set of uncorrelated variables.
+- **Pre-training** is the practice of training a machine learning model on a large dataset before fine-tuning it on a specific task.
+- **Object Detection** is a computer vision task that identifies and locates objects within images or video.
+- **Oversampling** is a technique used to balance class distribution by randomly duplicating minority class instances.
+- **Outlier** is a data point that deviates significantly from the rest of the data set often considered as noise or anomaly.
+- **Overfitting** is a modeling error that occurs when a machine learning algorithm captures noise in the training data.
+- **One Hot Encoding** is a representation of categorical variables as binary vectors commonly used in machine learning algorithms.
+- **Nearest Neighbor Search** is an algorithm used to find the data points in a data set that are closest to a given point.
+- **Normal Distribution** is a probability distribution characterized by a bellshaped curve commonly used in statistics and machine learning.
+- **Normalization** is the process of scaling features to a standard range commonly used in machine learning to improve algorithm performance.
+- **Natural Language Processing (NLP)** is a field of AI that focuses on the interaction between computers and human language.
+- **Matrix Factorization** is a technique used to decompose a matrix into multiple matrices commonly used in recommendation systems.
+- **Markov Chain** is a stochastic model representing a sequence of possible events where the probability of each event depends solely on the state attained in the previous event often used in machine learning and data science for simulating sampling from complex probability distributions and studying systems over time.
+- **Model Selection** is the process of choosing the most appropriate machine learning algorithm for a particular task.
+- **Model Evaluation** is the process of assessing the performance of a machine learning model using specific metrics.
+- **Jupyter Notebook** is an open-source web application that allows for the creation and sharing of documents containing live code, equations, and visualizations.
+- **Knowledge Transfer** is the process of applying knowledge gained from one domain to another often used in machine learning to improve model performance.
+- **Knowledge Graphs** is a structured representation of facts and relationships commonly used in semantic search and recommendation systems.
+- **Joint Probability** is the probability of multiple events occurring together often used in probabilistic models.
+- **Inductive Bias** is the set of assumptions a machine learning algorithm makes to generalize from training data to unseen data.
+- **Information Extraction** is the process of automatically extracting useful information from unstructured data sources.
+- **Inference** is the process of making predictions using a trained machine learning model.
+- **Imbalanced Data** is a data set where the class distribution is not equal, often requiring special handling techniques.
+- **Human in the Loop** is a machine learning approach that involves human interaction commonly used to improve model accuracy.
+- **Graphics Processing Unit (GPU)** is a specialized hardware used for rapid computation commonly used to accelerate machine learning algorithms.
+- **Vanishing Gradient** is a problem in training neural networks where gradients become too small for effective weight updates.
+- **Generalization** is the ability of machine learning model to perform well on unseen data.
+- **Generative adversarial networks (GANs)** is a class of machine learning frameworks where two neural networks the generator and the discriminator are trained together commonly used for image generation tasks.
+- **Ensemble Methods** are techniques that combine multiple machine learning models to improve overall performance.
+- **Multiclass Classification** is a classification task where each sample can belong to one of three or more classes.
+- **Data Preprocessing** is an umbrella term for the initial steps of preparing and cleaning data before fitting it into a machine learning model.
+- **Regression Analysis** is a statistical process for estimating the relationships among variables commonly used in predictive modeling.
+- **Sigmoid Function** is an activation function that outputs values between zero and one commonly used in logistic regression and neural networks.
+- **Evolutionary Algorithms** are optimization algorithms inspired by the process of natural selection used in machine learning for parameter tuning.
+- **Language Models** are statistical models that predict the likelihood of a sequence of words commonly used in natural language processing.
+- **Backpropagation** is an optimization algorithm used to minimize the loss function by adjusting the model's weights, fundamental to the training of artificial neural networks.
+- **Bugging** is an ensemble learning technique that improves stability and accuracy by training multiple instances of the same model on different subsets of the training data.
+- **Dense Vector** is a type of vector in which most of the elements are non zero commonly used in machine learning and data science for feature representation and various computations.
+- **Feature Engineering** is the process of transforming raw data into a format that makes it easier for machine learning algorithms to interpret.
+- **Support Vector Machines (SVMs)** are supervised learning algorithms used for classification and regression tasks that find the hyper plane that best separates different classes in the feature space.
+- **Cross Validation** is a technique for assessing the performance of a machine learning model by dividing the data set into multiple subsets and evaluating the model on different combinations of these subsets.
+- **Loss Function** is a mathematical function that quantifies the difference between the predicted and actual outcomes in machine learning algorithms.
+- **P-value** is a measure used in hypothesis testing to indicate the probability of observing a test statistic as extreme as the one computed given that the null hypothesis is true.
+- **T-test** is a statistical test used to compare the means of two groups and determine if they are significantly different from each other.
+- **Cosine Similarity** is a metric used to measure the cosine of the angle between two nonzero vectors in an inner product space often used to measure document similarity.
+- **Dropout** is a regularization technique in neural networks where randomly selected neurons are ignored during training helping to prevent overfitting.
+- **Softmax Function** is an activation function that turns a vector of raw scores into probabilities often used in the output layer of a classification neural network.
+- **Bayes Theorem** is a principle in probability theory and statistics that describes the probability of an event based on prior knowledge of related conditions.
+- **Tanh Function** is an activation function used in neural networks that scales the output to be in the range between negative -1 and positive one.
+- **ReLU Function** is a nonlinear activation function used in neural networks that output the input if it is positive and zero otherwise.
+- **Mean Squared Error** is a loss function used in regression problems that measures the average of the squares of the errors between predicted and actual values.
+- **Root Mean Square Error** is the square root of the mean squared error providing a measure of the average magnitude of the errors between predicted and actual observations.
+- **R Squared (Coefficient of Determination)** is a statistical measure indicating the proportion of the dependent variables variance that is explained by the independent variable or variables in a regression model.
+- **L1 and L2 Regularization** are techniques that add penalty terms to the loss function to prevent overfitting with L1 leading to sparse solutions and L2 simply shrinking the weights.
+- **Learning Rate** is a tuning parameter in an optimization algorithm that determines the step size at each iteration while moving towards a minimum of a loss function. It metaphorically represents the speed at which a machine learning model learns, influencing the extent to which newly acquired information overrides old information.
+- **Naive Bayes Classifier** is a probabilistic classifier based on applying base theorem assuming that all features are independent of each other given the category of the object.
+- **Cost Function** is a function that measures the cost or loss of the model's prediction compared to the true value and the optimization task is to minimize this function.
+- **Confusion Matrix** also known as an error matrix, is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one. Each row of the matrix represents the instances in an actual class, while each column represents the instances in a predicted class.
+- **Precision** is the fraction of relevant instances among the retrieved instances reflecting the accuracy of the model in classifying positive instances.
+- **Recall**, also known as sensitivity, is the fraction of relevant instances that were retrieved, indicating the ability of the model to identify all relevant instances.
+- The **Area Under the Curve** of the receiver operating characteristic curve is a performance measurement for classification problems representing the probability that a model will rank a randomly chosen positive instance higher than a randomly chosen negative one providing an aggregate measure of model performance across all possible classification thresholds.
+- **Train Test Split** refers to the process of dividing the data set into two subsets. One used for training the model known as the training set and the other used for evaluating the model's performance known as the test set. This method helps in assessing how well the model will generalize to new unseen data.
+- **Grid Search or Parameter Sweep** is traditionally used for hyperparameter optimization in machine learning and involves exhaustively searching through a manually specified subset of the hyperparameter space of a learning algorithm. It must be guided by some performance metric typically measured by cross validation on the training set or evaluation on a hold out a validation set. Grid search evaluates different combinations of hyperparameter values and outputs the settings that achieved the highest score in the validation procedure.
+- **Anomaly Detection** refers to the identification of rare items, events or observations which significantly deviate from the majority of the data and do not conform to a well-defined notion of normal behavior. finding applications in various domains including cyber security, medicine and financial fraud detection.
+- **Missing Values** refer to the absence of data values in expected data points which can significantly impact the analysis and conclusions drawn from the data necessitating the use of various handling techniques such as imputation emission or direct analysis methods to mitigate biases and inaccuracies.
+- **Euclidean Distance** between two points in euclidian space is the length of the line segment between those two points which can be calculated using the Pythagorean theorem and is often used to measure the similarity between objects or data points.
+- **Manhattan Distance** also known as taxi cap or L1 distance is a metric in which the distance between two points is the sum of the absolute differences of their cartisian coordinates. It is named after the grid layout of Manhattan streets reflecting the path a taxi would take between two points on the island.
+- **Humming Distance** is a metric used to measure the difference between two strings of equal length by counting the number of positions at which the corresponding symbols are different. It is particularly useful in error detection and error correction in coding theory.
+- **Jakart Similarity** quantifies the degree of similarity between two sets by computing the ratio of the size of their intersection to the size of their union.
+- **K Means Clustering** is a method in machine learning and data science that partitions n observations into K clusters where each observation belongs to the cluster with the nearest mean serving as a prototype of the cluster thus minimizing within cluster variances.
+- **Bootstrapping** is a form of hypothesis testing that involves resampling a single data set to create a multitude of simulated samples. Those samples are used to calculate standard errors, confidence intervals, and for hypothesis testing.
+- **Hierarchal Clustering** is a method of clustering in which objects are grouped into hierarchal structure allowing researchers to explore data at various levels of granularity.
+- **Matrix Multiplication** in the context of machine learning and data science is a fundamental algebraic operation where two matrices are combined to produce a new matrix and is crucial to performing transformations solving linear equations and optimizing models.
+- **Jacobian Matrix** is a matrix composed of all first partial derivatives of a multivariable function. And in the context of machine learning and data science, it is often used for optimization and gradient computation.
+- **Hessian Matrix** is a square matrix of second order partial derivatives. And in the context of machine learning and data science, it is often used for optimization allowing for the assessment of the convexity or concavity of a loss function.
+- **Measures of Central Tendency** refer to a central or typical value for a probability distribution often calculate called averages. The most common measures of central tendency are the arithmetic mean, the median, and the mode. These measures can be applied to one-dimensional data and can be used to understand the central position around which data values are distributed.
+- **Activation Function** determines the output value of a node based on its input values and weights and nonlinear activation functions enable the model to approximate complex nonlinear relationships.
+- **Artificial Neural Network** is a system inspired by the structure and functioning of biological neural networks capable of learning, adapting, and recognizing complex patterns using multiple layers of artificial neurons. Each processing information and passing it forward.
+- **Perceptron** is an algorithm for supervised learning of binary classifiers. A function which can decide whether an input represented by a vector of numbers belongs to some specific class. It is a type of linear classifier meaning a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with a feature vector.
+- **Convolutional Neural Network or CNN** is a type of artificial neural network specifically designed for processing, recognizing, and classifying images utilizing convolution to automatically and adaptively extract features from input data. Enabling the network to efficiently handle visual information and find applications in various domains such as image recognition, medical image analysis, and natural language processing.
+- **Recurrent Neural Network or RNN** is a type of neural network well suited for processing sequences of inputs characterized by its ability to maintain internal state called memory to process arbitrary sequences of inputs making it applicable to tasks such as handwriting recognition or speech recognition. It allows the input from some nodes to affect subsequent input to the same nodes enabling the network to exhibit temporal dynamic behavior and be theoretically during complete.
+- **Long Short-Term Memory or LSTM** is a type of recurrent neural network designed to address the vanishing gradient problem inherent in traditional RNNs allowing the network to learn long-term dependencies and effectively handle sequences of data making it applicable in fields like speech recognition machine translation and time series prediction.
+- **Transformer Model** is a deep learning architecture introduced in the paper attention is all you need that relies on self-attention mechanisms and is known for its parallel processing capabilities allowing it to require less training time compared to previous recurrent neural architectures like LSTM. It has been widely adopted for training large language models and has applications in natural language processing, computer vision, and other domains.
+- **Padding** refers to the technique of adding extra data points or placeholders to a data set or an array often used in processing input data for convolutional neural networks to ensure that the convolution kernels fit properly over the input data maintaining the spatial dimensions of the input.
+- **Pooling** is a dimensionality reduction method that serves to decrease the number of parameters and computations in the network control overfitting and progressively reduce the spatial size of the representation known as down sampling.
+- **Variational Auto Encoder** is a generative model that leverages variational basin methods to encode and decode input data aiming to generate new data similar to the input and it is particularly useful in unsupervised learning scenarios.
+- **Quantum Machine Learning** is the intersection of quantum computing and machine learning, aiming to solve complex problems more efficiently.

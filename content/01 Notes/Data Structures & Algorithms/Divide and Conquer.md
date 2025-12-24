@@ -1,0 +1,1 @@
+- Breaking down a complex problem into smaller subproblems, as seen in Merge Sort.
