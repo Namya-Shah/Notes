@@ -95,7 +95,8 @@ Subject:
 	- **Model Serving:** Addressing the ML model in a production environment
 	- **Model Performance Monitoring:** Observing performance on live, unseen data
 	- **Model Performance Logging:** Recording every inference request
-
+> [!IMPORTANT] IMPORTANT
+> Always start by creating a blueprint rather than creating blueprint on the go.
 
 
 # References
