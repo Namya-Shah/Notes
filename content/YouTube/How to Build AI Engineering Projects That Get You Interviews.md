@@ -1,0 +1,119 @@
+---
+Location:
+  - YouTube
+Channel:
+  - Marina Wyss
+Date: 2025-12-31 16:34
+Topics:
+tags:
+  - YouTube
+---
+# Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ZDSdMpczXE?si=fNa3JdrcVQ8mj41a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# Notes
+- **Problem Framing and Success Metrics**
+	- Start with a business problem and then figure out if an LLM is even the right tool to solve it.
+	- Once determined that LLM is the right tool for solution, we need to think about constraints that are specific to AI Engineering.
+		- Includes, latency and cost constraints
+- **Professional Prompt Engineering**
+	- Treat the prompts like separate components of your system. Don't hard code them directly in files, but instead have separate files for each version of your prompt.
+	- Create a set of test inputs with the expected outputs or at least criteria for what a good output looks like.
+	- A good test set should contain different types of questions, difficulty levels, and edge cases and it should be updated regularly based on new failure patterns you discover as you work.
+	- Use BLEU & ROUGE, exact matching for classification tasks, or LLM as a judge
+	- For simple projects, we can do it manually or also use tools like prompt layer, langfuse, and weights and biases which help you with prompt versioning and evaluation tracking.
+- **Model Selection and Evaluation**
+	- A common beginner mistake I see is to just default to using the newest model for everything.
+	- Try using different models from different providers.
+	- Document the process in readme.
+	- Model routing is a more advanced method that works well in practice. This is when you use cheap, fast model to classify the difficulty of the incoming query, then route it to the appropriate model from there.
+	- Simple queries can go to cheap and fast model and complex queries can go to a more expensive higher quality one.
+- **RAG (Retrieval Augmented Generation)**
+	-  Chunking, Embedding, Retrieval strategies have a massive impact on your system performance.
+	- *Chunking* is when we break up documents into chunks.
+		- Fixed size chunking at different sizes
+		- Semantic chunking where we split by meaning
+		- or many other options...
+		- For each strategy, measure retrieval accuracy
+	- *Embeddings* are numerical representations of your documents.
+		- To transform text into embeddings, we use a pre-trained embedding model most of the time.
+		- OpenAI's text embedding models are solid and really easy to use.
+		- Open source alternatives like sentence transformers let your run models locally for free.
+	- The simplest approach is *semantic similarity search*. You convert the user's question into an embedding, then you find the chunks with the most similar embeddings.
+	- *Hybrid search* combines keyword search with semantic search.
+	- *Reranking* is a two-stage approach.
+		- First, you retrieve maybe 20 chunks using a fast vector search.
+		- Then you use a more accurate but slower model to rerank those 20 chunks and pick the best five.
+	- *Query expansion* means you don't just search what the user's exact question was.
+		- You might use a LLM to rephrase the question to be a bit more specific, generate multiple variations, or extract key entities and concepts.
+	- *Retrieval Accuracy*: What percentage of time do you retrieve the correct chunks? Use metrics like Precision@K or Recall@K.
+	- *Answer Accuracy* given good chunks: Does the LLM produce the correct answer when it receives the right context?
+		- It shows if the LLM is a problem or the retrieval is the problem.
+- **Agents**
+	- An agent is basically an LLM that can use tools and take actions autonomously to accomplish a goal.
+	- Instead of just answering a question, it might search the web, run code, query a database, call an API, and synthesize the results.
+	- Including an agent component shows you can build complex autonomous systems.
+	- Use a framework like LangGraph or CrewAI or you can build your own agent system using function calling features built into OpenAI or Anthropic APIs.
+	- Include error handlings as LLM can make mistakes. Also security, if the agent can execute code or call APIs, we have security concerns.
+	- Monitoring every step is beneficial when agent can do everything
+	- Agents are hard to test because they're non-deterministic and multi-step.
+	- Create a test set with 10 to 15 representative tasks from simple to complex.
+	- Measure task completion rate and average steps to completion.
+- **Deployment and UI**
+	- The most professional approach to deployment is building a REST API that serves your AI system.
+	- FastAPI is the standard choice for Python.
+		- It's fast, it has automatic documentation, and it handles async operations well, which is important for LLM calls that can take several seconds.
+	- The key things to handle are streaming responses so your UI feels faster, error handling, because LLM APIs fail sometimes, rate limiting to prevent abuse, and authentication with at least a simple API key.
+	- Deploying the API app on AWS or GCP so it has stable public URL.
+	- Create UI with Streamlit or Gradio for a really simple setup.
+- **Monitoring**
+	- Monitoring is what separates a demo from a real system.
+	- *For Prompts:*
+		- Track response quality scores
+		- Format compliance
+		- Refusal rates
+			- If it spikes from 2% to 15%, something changes and need to investigate that.
+		- Average response length
+	- *For RAG:*
+		- Track retrieval confidence scores
+			- If scores are dropping over time, your knowledge base might be getting stale, or maybe user queries are shifting in some way.
+		- Number of chunks retrieved
+		- Source diversity
+		- Retrieval latency
+	- *For Agents:*
+		- Track task completion rate
+		- Average steps to completion
+			- If the agent is taking suddenly 15 steps to complete tasks that used to take 5 steps that means something's wrong.
+		- Tool success rates
+		- Error types
+		- Cost per task
+	- *For Overall System:*
+		- Track end-to-end task success
+		- User satisfaction
+		- Latency
+		- Cost per request
+		- Error rate
+		- Uptime
+- **Fine-Tuning**
+	- Fine-tuning is only worth it when you've already optimized everything else and you need that little extra performance boost.
+	- *Consistent Output Formatting*
+		- If you need your model to always output a very specific JSON structure and prompting isn't reliable enough, fine-tuning can help.
+	- *Matching a larger model's performance with a smaller model*
+		- If Sonnet 4.5 costs more and doesn't give the desired output we can use Haiku 4.5 and fine tune it to our specific use case.
+	- *Domain Specific Language*
+		- Fine tuning on domain specific examples can improve performance.
+	- For *RAG systems*, you can fine-tune your embedding model on domain-specific data to improve retrieval quality.
+	- The key to fine tune is if you have a clear reason and you've already tried everything else.
+	- **To fine-tune**
+		- Create high quality training dataset
+		- Establish a baseline
+		- Train multiple versions
+		- Compare performance
+- **THE COMPLETE SYSTEM**
+	- A user submits a query through your UI. The request hits your API and get logged with metadata.
+	- If you have an agent, it decides whether it needs RAG, which tools to use, what actions to take.
+	- If RAG is needed, the query gets converted to an embedding, relevant chunks are retrieved and re-ranked, and those chunks become context.
+	- Your prompt template gets filled with the context, examples, and instructions.
+	- The appropriate model (based on your model selection logic) generates a response, potentially with streaming.
+	- The response gets validated, post-processed if needed, and returned to the user. Everything gets logged - the query, retrieved chunks, model used, latency, cost, any errors.
+	- Your monitoring system analyzes these logs regularly. You review failures, categorize error types, and use that data to improve your prompts, RAG configurations, or agent logic.
