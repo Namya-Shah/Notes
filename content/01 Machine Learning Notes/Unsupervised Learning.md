@@ -1,6 +1,8 @@
 ---
-Link: 
+Link:
 tags:
+  - ML
+  - Unsupervised-Learning
 ---
 # 
 
