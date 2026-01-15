@@ -69,7 +69,7 @@ Machine Learning is great for:
 - *Clustering*
 	- [[K-Means Clustering]]
 	- [[DBSCAN]]
-	- [[Hierarchical Cluster Analysis (HCA)]]
+	- [[Hierarchical Agglomerative Clustering (HAC)]]
 - *Anomaly detection and novelty detection*
 	- [[One-Class SVM]]
 	- [[Isolation Forest]]

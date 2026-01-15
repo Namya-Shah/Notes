@@ -80,7 +80,7 @@ I'm preparing for an interview with [company name] for [position]. Based on thei
 #### Bonus
 - Prompt
 	- What are the key questions someone reading my analysis would ask, and how should we proactively address them?
-# God-Level Prompt
+### God-Level Prompt
 I want you to teach me everything important about [TOPIC].
 But here's how:
 - No boring lectures. No data dumps.
@@ -93,3 +93,23 @@ Your mission:
 - Entertaining enough to remember
 - Deep enough to actually teach me something
 End with a one-sentence cheat code that sums up the entire topic.
+### To generate synthetic dataset
+can you create me 2 really good datasets w/ the following requirements:
+
+Customers table:
+Columns: customer_id, customer_name, order_id, product_id, quantity, price, shipping_date, order_date, and any other columns you think would be good.
+
+customer_id is the primary key of the table. Product_id and order_id are foreign keys. Every product_id connects to a product_id in the products table but the orders table is missing 5 products because they don't have orders yet.
+
+The table has 5K orders/rows
+
+Products table:
+columns: product_id, product_name, product_category, manufacturing_city, size, color, SKU, and any other columns you think would be good
+
+product_id is the primary key to the table that connects to the orders table you made on product_id.
+
+The table has 20 different products but 5 products don't have any orders in the orders table
+
+For both tables, we want lots of variation within the columns so it's not too repetitive. And we don't want the categories to be distributed evenly exactly -- so the categories can have a lot and some a little. We want the datasets to be as realistic as possible. All the ID categories should be random numbers without any letters.
+
+Both tables (customers and products) need to be downloadable by CSV

@@ -21,7 +21,7 @@ tags:
 - [[K-Means Clustering]]
 - [[DBSCAN]]
 - [[Mean-Shift]]
-- [[Hierarchical Cluster Analysis (HCA)]]
+- [[Hierarchical Agglomerative Clustering (HAC)]]
 ## Dimensionality Reduction Visualization
 - [[Principal Component Analysis (PCA)]]
 - [[Quadratic Discriminant Analysis]]
