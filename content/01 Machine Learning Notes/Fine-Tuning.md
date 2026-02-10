@@ -41,10 +41,35 @@ tags:
 > [!NOTE]
 > The standard method of post training is called *Supervised Fine-Tuning (SFT)*
 
+- **Other Methods**
+	- Preference Optimization (DPO, ORPO)
+	- Distillation and Reinforcement Learning (RL)
+# Hyperparameter Tuning
+- `max_seq_length = 2048` - Controls context length. While Llama-3 supports 8192, we recommend 2048 for testing. Unsloth enables 4x longer context fine-tuning.
+- `dtype = None` - Defaults to None; use `torch.float16` or `torch.bfloat16` for newer GPUs.
+- `load_in_4bit = True` - Enables 4-bit quantization, reducing memory use 4x for fine-tuning. Disabling it enables LoRA 16-bit fine-tuning. You can also enable 16-bit LoRA with `load_in_16bit = True`.
+- To enable full fine-tuning (FFT), set `full_finetuning = True`. For 8-bit fine-tuning, set `load_in_8bit = True`.
+## Supervised Fine-Tuning
+- Further trains a pre-trained model on task-specific labeled dataset (input-output pairs).
+- Updates all models weights to adapt it to the new task.
+- Best for tasks like sentiment analysis and text classification where labeled data is available.
+## Instruction Fine-Tuning
+- Trains the model using datasets pairing instructions (prompts) with expected responses.
+- Helps the model generalize to new tasks and follow natural language instructions.
+- Commonly used in chatbots, question answering and open-ended tasks.
+## Parameter-Efficient Fine-Tuning (PEFT)
+- Adjusts only a small subset of parameters, keeping most of the model unchanged.
+- Methods include training adapter layers, low-rank reparameterization (LoRA) or just prompt tokens.
+- Enables efficient adaptation of large models with less memory and computation -- for example, PEFT can reduce trainable parameters from tens of thousands to just a few thousand.
+## Reinforcement Learning with Human Feedback
+- Uses human ratings to teach a model to align outputs with human preferences.
+- Involves three steps: generate outputs, train a reward model from human feedback and optimize model behavior using reinforcement learning (like PPO).
+- Ideal for tasks requiring alignment with human values and nuanced preferences such as generating helpful, safe or ethical content.
 
 
 # References
 ---
 1. [[Low-Rank Adaptation (LoRA)]]
 2. [[Quantized LoRA (QLoRA)]]
-3. 
+3. [[Parameter Tuning]]
+4. 
