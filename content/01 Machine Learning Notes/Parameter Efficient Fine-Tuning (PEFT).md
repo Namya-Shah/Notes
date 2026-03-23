@@ -54,7 +54,8 @@ peft_model.print_trainable_parameters()
 ```
 
 ## LoRA
-- Low-Rank Adaptation (LoRA) 
+- **Low-Rank Adaptation (LoRA)** is a PEFT method that decomposes a large matrix into two smaller low-rank matrices in the attention layers. This drastically reduces the number of parameters that need to be fine-tuned.
+- 
 
 # References
 ---

@@ -4,6 +4,8 @@ tags:
   - RAG
 ---
 # Brief Introduction
+- The component responsible for fetching relevant chunks from the knowledge base. Can be dense (embedding-based), sparse (BM25/keyword), or hybrid and is one of the most impactful levers in a RAG pipeline.
+# Notes
 - After loading, splitting, embedding, and storing data, the final missing piece is **intelligent retrieval**.
 - RAG systems cannot send all stored data to the LLM -- retrieval must **select only the most relevant information** for each query.
 - Intelligent retrievals understands **user intent**, searches large knowledge sources, and fetches context dynamically.

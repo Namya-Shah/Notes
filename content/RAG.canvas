@@ -1,16 +1,18 @@
 {
 	"nodes":[
-		{"id":"1126d3c7e43b0820","x":-160,"y":-160,"width":250,"height":60,"type":"text","text":"RAG SYSTEMS"},
-		{"id":"01f3ccbd2d9276d2","x":215,"y":-165,"width":250,"height":60,"type":"text","text":"TextSplitters"},
-		{"id":"bc1574ad26db670d","x":221,"y":-79,"width":250,"height":60,"type":"text","text":"Embeddings"},
-		{"id":"0d7217938f7b96a9","x":215,"y":0,"width":250,"height":60,"type":"text","text":"Retrievers"},
-		{"id":"1f530796b6da5e12","x":215,"y":-260,"width":250,"height":60,"type":"text","text":"Loaders"},
-		{"id":"300745d7df0c55f4","x":980,"y":-335,"width":400,"height":400,"type":"file","file":"01 Machine Learning Notes/RAG/TextSplitters.md"},
-		{"id":"bfd74ef61f264bdc","x":1571,"y":-511,"width":400,"height":400,"type":"file","file":"01 Machine Learning Notes/RAG/CharacterTextSplitter.md"},
-		{"id":"8b097225a1890016","x":1571,"y":-80,"width":400,"height":400,"type":"file","file":"01 Machine Learning Notes/RAG/RecursiveCharacterTextSplitter.md"},
-		{"id":"b2bb4601e95afd0e","x":980,"y":100,"width":400,"height":400,"type":"file","file":"01 Machine Learning Notes/RAG/Embeddings.md"},
-		{"id":"c02291cb675ccce1","x":980,"y":560,"width":400,"height":400,"type":"file","file":"01 Machine Learning Notes/RAG/Retrievers.md"},
-		{"id":"2e0ffcea0ac04495","x":980,"y":-800,"width":400,"height":400,"type":"file","file":"01 Machine Learning Notes/RAG/TextLoaders.md"}
+		{"id":"1126d3c7e43b0820","type":"text","text":"RAG SYSTEMS","x":-160,"y":-160,"width":250,"height":60},
+		{"id":"01f3ccbd2d9276d2","type":"text","text":"TextSplitters","x":215,"y":-165,"width":250,"height":60},
+		{"id":"bc1574ad26db670d","type":"text","text":"Embeddings","x":221,"y":-79,"width":250,"height":60},
+		{"id":"0d7217938f7b96a9","type":"text","text":"Retrievers","x":215,"y":0,"width":250,"height":60},
+		{"id":"1f530796b6da5e12","type":"text","text":"Loaders","x":215,"y":-260,"width":250,"height":60},
+		{"id":"300745d7df0c55f4","type":"file","file":"01 Machine Learning Notes/RAG/TextSplitters.md","x":980,"y":-335,"width":400,"height":400},
+		{"id":"bfd74ef61f264bdc","type":"file","file":"01 Machine Learning Notes/RAG/CharacterTextSplitter.md","x":1571,"y":-511,"width":400,"height":400},
+		{"id":"8b097225a1890016","type":"file","file":"01 Machine Learning Notes/RAG/RecursiveCharacterTextSplitter.md","x":1571,"y":-80,"width":400,"height":400},
+		{"id":"b2bb4601e95afd0e","type":"file","file":"01 Machine Learning Notes/RAG/Embeddings.md","x":980,"y":100,"width":400,"height":400},
+		{"id":"c02291cb675ccce1","type":"file","file":"01 Machine Learning Notes/RAG/Retrievers.md","x":980,"y":560,"width":400,"height":400},
+		{"id":"2e0ffcea0ac04495","type":"file","file":"01 Machine Learning Notes/RAG/TextLoaders.md","x":980,"y":-800,"width":400,"height":400},
+		{"id":"3d611151456ba1a6","x":1626,"y":511,"width":400,"height":400,"type":"file","file":"01 Machine Learning Notes/RAG/WikipediaRetriever.md"},
+		{"id":"3450fce21e69356a","x":1626,"y":980,"width":400,"height":400,"type":"file","file":"01 Machine Learning Notes/RAG/Maximal Marginal Relevance (MMR).md"}
 	],
 	"edges":[
 		{"id":"a2a280301b634e64","fromNode":"1126d3c7e43b0820","fromSide":"right","toNode":"1f530796b6da5e12","toSide":"left"},
@@ -22,6 +24,8 @@
 		{"id":"e5edcaec0d288280","fromNode":"300745d7df0c55f4","fromSide":"right","toNode":"bfd74ef61f264bdc","toSide":"left"},
 		{"id":"05b7a478d0abaf05","fromNode":"300745d7df0c55f4","fromSide":"right","toNode":"8b097225a1890016","toSide":"left"},
 		{"id":"b3301e069c426c3a","fromNode":"bc1574ad26db670d","fromSide":"right","toNode":"b2bb4601e95afd0e","toSide":"left"},
-		{"id":"b91cd828b460bed2","fromNode":"0d7217938f7b96a9","fromSide":"right","toNode":"c02291cb675ccce1","toSide":"left"}
+		{"id":"b91cd828b460bed2","fromNode":"0d7217938f7b96a9","fromSide":"right","toNode":"c02291cb675ccce1","toSide":"left"},
+		{"id":"648356b1f5f48528","fromNode":"c02291cb675ccce1","fromSide":"right","toNode":"3d611151456ba1a6","toSide":"left"},
+		{"id":"d8bc960280e594b5","fromNode":"c02291cb675ccce1","fromSide":"right","toNode":"3450fce21e69356a","toSide":"left"}
 	]
 }

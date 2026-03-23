@@ -113,3 +113,20 @@ The table has 20 different products but 5 products don't have any orders in the 
 For both tables, we want lots of variation within the columns so it's not too repetitive. And we don't want the categories to be distributed evenly exactly -- so the categories can have a lot and some a little. We want the datasets to be as realistic as possible. All the ID categories should be random numbers without any letters.
 
 Both tables (customers and products) need to be downloadable by CSV
+
+### The 5-Minute First Draft
+- "Turn these rough notes into an article: [paste your brain dump]"
+  Target length: [800/1500/3000] words
+  Audience: [describe reader]
+  Goal: [inform/persuade/teach]
+  Keep my ideas and examples. Fix structure and flow.
+### Headline Machine
+Prompt:
+- "Topic: [your topic]
+  Write 20 headlines using these formulas:
+  - How to [benefit] without [pain point]
+  - [Number] ways [audience] can [outcome]
+  - The [adjective] guide to [topic]
+  - Why [common belief] is wrong about [topic]
+  - [Do something] like [authority figure]
+  - "
