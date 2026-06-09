@@ -130,3 +130,33 @@ Prompt:
   - Why [common belief] is wrong about [topic]
   - [Do something] like [authority figure]
   - "
+
+### Skill Roadmap Builder
+Build a 90-day skill roadmap for [target skill] using the Pareto 80/20 principle. Identify the 20% of sub-skills delivering 80% of results. Include high-leverage techniques, core competency priorities, and ROI-based sequencing. Provide weekly learning targets with milestone checkpoints at days 30, 60, and 90. Include resource recommendations for each phase. Consider my current level of [beginner/intermediate] and available hours of [number] weekly.
+
+### Learning Gap Analyzer
+Analyze my learning gaps for [subject/skill] using velocity and mastery metrics. Identify bimodal weak spots, passive vs active time ratios, and specific failure patterns. Include a gap-closing action plan ranked by impact with estimated closure time for each gap. Provide diagnostic questions to self-validate findings. Consider my recent test/practice results of [scores] and study logs of [description].
+
+### Study Session Planner
+Create a 1-3-7-14 spaced repetition study schedule for [topic] with daily session blocks. Include first-review urgency rules (within 24 hours), active recall techniques, and interval growth tracking. Provide a printable weekly calendar template with time-blocked sessions. Add a review completion checklist and reset rules for missed sessions. Consider my exam date of [date] and daily study capacity of [hours].
+
+### Concept Simplifier Engine
+Simplify [complex concept] using desirable difficulty and retrieval-based explanations. Break it into 3 digestible layers, each with a self-test question. Include analogies for each layer and common misconception warnings. Provide a one-page summary with visual description cues. Add a verification step to confirm understanding before moving layers. Consider my background in [related knowledge] and learning style of [visual/reading/practical].
+
+### Retention System
+Build a spaced retrieval system for [subject] using learning steps: 10 minutes, 3 hours, 1 day. Set graduating interval to 3 days (Easy: 7 days) with 150-300 daily review cap. Include ease factor rules and 'Again' triggers for true forgetting only. Provide an Anki-compatible template with scheduling formulas. Add a weekly review audit to catch card drift. Consider my daily review capacity of [number] cards.
+
+### Practice Loop Framework
+Design a retrieval-based practice loop for [skill] using free recall, guided recall, and interleaving. Include low-stakes testing sequences, mixed-concept rotations, and immediate feedback rules. Provide a weekly practice grid with difficulty progression tiers. Add error correction protocols and retry timing rules. Consider my current weak areas of [list] and practice block length of [minutes].
+
+### Project Curriculum Builder
+Build a 6-station project curriculum for [topic] including: world/players, win conditions map, evidence engine, play sequence, power-ups, and GM notes. Include rubrics, feedback loops, and differentiation moves. Provide a unit template with timing allocations per station. Add reflection prompts for post-project analysis. Consider my audience level of [beginner/advanced] and project length of [weeks].
+
+### Recall Training Method
+Create an active recall training protocol for [subject] using free recall and guided/cued recall drills. Include onset/offset timing rules, accuracy scoring (90%+ target for guided, 80%+ for free), and neural engagement triggers. Provide daily drill templates with varying difficulty. Add a performance tracking log and weekly review. Consider my study materials of [type] and recall goal of [score].
+
+### Progress Tracking System
+Design a progress dashboard for [course/skill] tracking completion at lesson, module, and full-course levels. Include assessment score averages, dropout point alerts, and a 0-1 progress scale. Provide weekly review checklists and gap flags. Add trend lines to visualize velocity changes. Consider my course structure of [modules/lessons] and target completion date of [timeframe].
+
+### Tutor Mode Protocol
+Act as a tutor for [subject] using active learning signals: pause for questions, track my mouse/video interactions, and request attempts before revealing answers. Include immediate feedback loops, misconception corrections, and velocity checks. Adapt difficulty based on my response accuracy with step-up/step-down rules. Provide session summaries. Consider my current level of [description] and goal of [specific outcome].

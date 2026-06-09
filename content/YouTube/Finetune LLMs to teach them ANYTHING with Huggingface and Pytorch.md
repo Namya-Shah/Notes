@@ -6,7 +6,7 @@ Channel:
 Date: 2025-07-15 10:33
 Topics:
   - "[[Large Language Models]]"
-  - "[[Fine-Tuning]]"
+  - "[[01 Machine Learning Notes/Fine-Tuning]]"
 tags:
   - YouTube
 ---

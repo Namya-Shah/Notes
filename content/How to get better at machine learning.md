@@ -1,0 +1,22 @@
+- [ ] Read the original backpropagation paper
+- [ ] Reimplement it from scratch in NumPy
+- [ ] Build your own autograd engine
+- [ ] Write your own neural network framework
+- [ ] Implement every classic architecture from scratch -- LeNet, AlexNet, ResNet, Transformer
+- [ ] Train GPT-2 from scratch
+- [ ] Build your own tokenizer
+- [ ] Write your own data pipeline
+- [ ] Curate your own pretraining dataset
+- [ ] Label it yourself
+- [ ] Implement your own distributed training setup
+- [ ] Write your own CUDA kernels
+- [ ] Optimize your memory bandwidth
+- [ ] Fine-tune on your own infrastructure
+- [ ] Implement RLHF from scratch
+- [ ] Build your own evaluation framework
+- [ ] Design your own benchmark
+- [ ] Deploy it yourself
+- [ ] Monitor it in production
+- [ ] Maintain it at scale
+- [ ] Write the paper
+- [ ] Reproduce someone else's results too

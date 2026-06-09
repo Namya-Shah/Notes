@@ -54,6 +54,16 @@ tags:
 	- Design project for experimentation, not production
 	- Change one thing at a time
 
+# Different Types of RAG
+- [[Traditional RAG]]
+- [[Graph RAG]]
+- [[Agentic RAG]]
+- [[HyDE RAG]]
+- [[Contextual RAG]]
+- [[Modular RAG]]
+- [[Hybrid RAG]]
+- 
+
 # References
 ---
 1. [[TextLoaders]]
